@@ -14,7 +14,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
-using SKYNET.Models;
 using SKYNET.Services;
 
 namespace SKYNET
@@ -114,14 +113,7 @@ namespace SKYNET
                 .AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader());
-
-            Initialize();
         }
 
-        private void Initialize()
-        {
-
-
-        }
     }
 }
